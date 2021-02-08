@@ -38,7 +38,6 @@ const controllerButtonAgain = function () {
   guessNumberView.showScore(model.state.player.score);
   guessNumberView.showMessage();
   guessNumberView.clearInput();
-  console.log(model.state.player.answer);
 };
 const init = function () {
   guessNumberView.showScore(model.state.player.score);
@@ -48,5 +47,3 @@ const init = function () {
   guessNumberView.handlerButtonAgain(controllerButtonAgain);
 };
 init();
-console.log(model.state.player.answer);
-//
